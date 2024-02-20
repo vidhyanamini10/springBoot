@@ -1,11 +1,14 @@
 package com.cislibrary.library.service;
 
 import com.cislibrary.library.model.Member;
+import com.cislibrary.library.service.MemberService;
 import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.*;
+
+@Service
 public class MemberService {
 
     private Map<Long, Member> memberMap = new HashMap<>();

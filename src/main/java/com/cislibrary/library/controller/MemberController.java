@@ -11,6 +11,7 @@ import java.util.List;
 @RequestMapping("/member")
 public class MemberController {
     @Autowired
+
     private MemberService memberService;
 
     @GetMapping
